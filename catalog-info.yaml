@@ -11,3 +11,8 @@ spec:
   lifecycle: development
   owner: user:guest
   system: coe-platform
+  dependsOn:
+    - component:coe-tech-ms-node
+  providesApis:
+    - login-api
+    - profiles-api
